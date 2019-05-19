@@ -4,6 +4,7 @@ PROJECT(LineFromPointCloud)
 ###############################################################################
 # CMake settings
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8.3)
+set (CMAKE_CXX_STANDARD 11)
 
 # OpenMP
 FIND_PACKAGE(OpenMP)

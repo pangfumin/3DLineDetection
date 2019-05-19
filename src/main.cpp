@@ -112,7 +112,7 @@ void writeOutLines( string filePath, std::vector<std::vector<cv::Point3d> > &lin
 }
 
 
-void main() 
+int  main()
 {
 	string fileData = "D://Facade//data.txt";
 	string fileOut  = "D://Facade//data";
